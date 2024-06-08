@@ -168,13 +168,13 @@ a {
 		img {
 			position: relative;
 			top: 0px;
-			right: 0px;
+			right: 10px;
 			z-index: 2;
 			max-width: 780px;
 			left: -20px;
 			@media (min-width: $md) {
-				right: 0px;
-				left: -100px;
+				right: 10px;
+				left: -80px;
 
 			}
 			@media (min-width: $lg) {
@@ -199,7 +199,7 @@ a {
 			background-image: url('../images/dots-light.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
-			right: -100px;
+			
 			top: -0px;
 			@media (min-width: $xl) {
 				top: -40px;
@@ -721,7 +721,7 @@ a {
 		}
 		ul {
 			li {
-				margin-bottom: 10px;
+				margin-bottom: 1px;
 			}
 		}
 	}
